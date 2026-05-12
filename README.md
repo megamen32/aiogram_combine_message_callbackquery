@@ -170,7 +170,7 @@ pip install aiogram-unified
 ### From source
 
 ```bash
-git clone https://github.com/your-username/aiogram_combine_message_callbackquery.git
+git clone https://github.com/megamen32/aiogram_combine_message_callbackquery.git
 cd aiogram_combine_message_callbackquery
 pip install -e .
 ```
