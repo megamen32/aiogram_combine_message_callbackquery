@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiogram-unified"
+version = "0.1.0"
+description = "Unified menu handlers and filters for aiogram messages and callback queries."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Project contributors" }
+]
+dependencies = [
+    "aiogram>=3,<4"
+]
+keywords = ["aiogram", "telegram", "bot", "callback-query", "menu", "router"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Framework :: AsyncIO",
+    "Topic :: Communications :: Chat",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/aiogram_combine_message_callbackquery"
+Repository = "https://github.com/your-username/aiogram_combine_message_callbackquery"
+Issues = "https://github.com/your-username/aiogram_combine_message_callbackquery/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
